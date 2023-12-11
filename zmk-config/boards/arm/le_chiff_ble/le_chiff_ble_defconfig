@@ -16,7 +16,7 @@ CONFIG_ARM_MPU=y
 CONFIG_GPIO=y
 
 
-# CONFIG_ZMK_DISPLAY=y
+CONFIG_ZMK_DISPLAY=n
 # CONFIG_LVGL_USE_THEME_MONO=y
 
 CONFIG_ZMK_RGB_UNDERGLOW=n
@@ -39,8 +39,8 @@ CONFIG_EC11_TRIGGER_GLOBAL_THREAD=y
 # Enable deep sleep support
 CONFIG_ZMK_SLEEP=y
 # Milliseconds of inactivity before entering deep sleep
-# 60 minutes
-CONFIG_ZMK_IDLE_SLEEP_TIMEOUT=3600000
+# 30 minutes
+CONFIG_ZMK_IDLE_SLEEP_TIMEOUT=1800000
 # Milliseconds of inactivity before entering idle state
 # 30 seconds
 CONFIG_ZMK_IDLE_TIMEOUT=30000
