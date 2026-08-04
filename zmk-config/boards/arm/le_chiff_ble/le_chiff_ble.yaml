@@ -1,14 +1,10 @@
-identifier: le_chiff_ble
+file_format: "1"
+id: le_chiff_ble
 name: le_chiff_ble
-type: mcu
+type: board
 arch: arm
-toolchain:
-  - zephyr
-  - gnuarmemb
-supported:
-  - adc
-  - usb_device
-  - ble
-  - ieee802154
-  - pwm
-  - watchdog
+features:
+  - keys
+  - studio
+  - encoder
+  - display
