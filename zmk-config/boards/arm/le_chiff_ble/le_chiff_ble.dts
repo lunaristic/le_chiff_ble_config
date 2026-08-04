@@ -21,10 +21,6 @@
 		zephyr,display = &oled;
 	};
 
-	zephyr_udc0: &usbd {
-		status = "okay";
-	};
-
 	default_transform: keymap_transform_0 {
 		compatible = "zmk,matrix-transform";
 		rows = <4>;
@@ -148,7 +144,7 @@
 	status = "okay";
 };
 
-&usbd {
+zephyr_udc0: &usbd {
 	status = "okay";
 };
 
