@@ -9,7 +9,7 @@ config BOARD
 config ZMK_KEYBOARD_NAME
 	default "le_chiff_ble"
 
-CONFIG_ZMK_MOUSE=y
+CONFIG_ZMK_POINTING=y
 
 if USB
 
@@ -42,9 +42,6 @@ config I2C
 	default y
 
 config SSD1306
-	default y
-
-config SSD1306_REVERSE_MODE
 	default y
 
 
